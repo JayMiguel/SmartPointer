@@ -79,6 +79,10 @@ public:
 	}
 
 private:
+
+	// Ô­Ê¼Ö¸Õë
 	T* p;
+
+	// É¾³ıÆ÷
 	void (*deleter)(T*);
 };
